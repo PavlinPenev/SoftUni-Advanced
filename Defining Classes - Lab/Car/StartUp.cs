@@ -6,7 +6,7 @@ namespace CarManufacturer
 {
     public class StartUp
     {
-        //These are all the problems in the contest combineds since it requires you to build it up step by step. Just watch the requirements and you can build it by yourself.
+        //These are all the problems in the contest combined since it requires you to build it up step by step. Just watch the requirements and you can build it by yourself.
         static void Main(string[] args)
         {
             string input;
