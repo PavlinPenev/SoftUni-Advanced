@@ -7,7 +7,7 @@ namespace DefiningClasses
     {
         static void Main(string[] args)
         {
-            //This code combines all the tasks of the contest from 1st to 4th
+            //This code combines all the tasks of the contest from 1st to 4th. The Repository contains zip files with the files for each task separately :)
             int n = int.Parse(Console.ReadLine());
             Family family = new Family();
             for (int i = 0; i < n; i++)
