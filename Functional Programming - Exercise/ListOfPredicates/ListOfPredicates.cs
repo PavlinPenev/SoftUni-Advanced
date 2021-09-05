@@ -9,7 +9,7 @@ namespace ListOfPredicates
         {
             int n = int.Parse(Console.ReadLine());
             int[] array = new int[n];
-            int[] dividers = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int[] dividers = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).Distinct().ToArray();
             for (int i = 0; i < n; i++)
             {
                 array[i] = i + 1;
