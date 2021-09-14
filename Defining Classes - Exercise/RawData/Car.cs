@@ -9,7 +9,7 @@ namespace RawData
         {
             Model = model;
             Engine = engine;
-            Tires = tires.ToList();
+            Tires = tires;
             Cargo = cargo;
         }
         public string Model { get; set; }

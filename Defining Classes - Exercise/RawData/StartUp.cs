@@ -46,9 +46,9 @@ namespace RawData
             {
                 Console.WriteLine(string.Join(Environment.NewLine, cars.FindAll(c => c.Cargo.Type == "fragile" && c.Tires.Any(t => t.Pressure < 1))));
             }
-            else if (filterCargoType == "flamable")
+            else if (filterCargoType == "flammable")
             {
-                Console.WriteLine(string.Join(Environment.NewLine, cars.FindAll(c => c.Cargo.Type == "flamable" && c.Engine.Power > 250)));
+                Console.WriteLine(string.Join(Environment.NewLine, cars.FindAll(c => c.Cargo.Type == "flammable" && c.Engine.Power > 250)));
             }
         }
     }
