@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterchef", "Masterchef\Masterchef.csproj", "{A188672B-5096-4990-8288-26EF2C95A134}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survivor", "Survivor\Survivor.csproj", "{8C3FB49B-9758-47EC-B1F4-3EA232AC1208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiRental", "SkiRental\SkiRental\SkiRental.csproj", "{5F55D45C-C7C6-49D3-9E69-F43520E9E4A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A188672B-5096-4990-8288-26EF2C95A134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A188672B-5096-4990-8288-26EF2C95A134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A188672B-5096-4990-8288-26EF2C95A134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3FB49B-9758-47EC-B1F4-3EA232AC1208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FB49B-9758-47EC-B1F4-3EA232AC1208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FB49B-9758-47EC-B1F4-3EA232AC1208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FB49B-9758-47EC-B1F4-3EA232AC1208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F55D45C-C7C6-49D3-9E69-F43520E9E4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F55D45C-C7C6-49D3-9E69-F43520E9E4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F55D45C-C7C6-49D3-9E69-F43520E9E4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F55D45C-C7C6-49D3-9E69-F43520E9E4A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
