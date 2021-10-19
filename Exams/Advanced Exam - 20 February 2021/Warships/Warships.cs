@@ -24,8 +24,6 @@ namespace Warships
             string[] attackCoordinates = Console.ReadLine().Split(",", StringSplitOptions.RemoveEmptyEntries);
             char firstPlayerShip = '<';
             char secondPlayerShip = '>';
-            char regularPosition = '*';
-            char mine = '#';
             for (int i = 0; i < field.GetLength(0); i++)
             {
                 char[] fieldInfo = string.Concat(Console.ReadLine().Where(c => !char.IsWhiteSpace(c))).ToCharArray();
