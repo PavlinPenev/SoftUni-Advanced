@@ -38,7 +38,6 @@ namespace Warships
             int player1Ships = CountShips(field, firstPlayerShip);
             int player2Ships = CountShips(field, secondPlayerShip);
             int sunkShipsCounter = 0;
-            int turnCounter = 0;
 
             foreach (var attack in attackCoordinates)
             {
