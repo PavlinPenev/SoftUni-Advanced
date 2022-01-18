@@ -17,7 +17,6 @@ namespace FastFood
                 if (qtyFood >= orders.Peek())
                 {
                     qtyFood -= orders.Dequeue();
-                    continue;
                 }
             }
             Console.WriteLine(biggestOrder);
