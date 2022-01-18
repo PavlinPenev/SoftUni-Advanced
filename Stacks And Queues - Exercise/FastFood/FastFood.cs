@@ -19,8 +19,6 @@ namespace FastFood
                     qtyFood -= orders.Dequeue();
                     continue;
                 }
-
-                break;
             }
             Console.WriteLine(biggestOrder);
 
