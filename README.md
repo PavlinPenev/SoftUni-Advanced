@@ -1,5 +1,5 @@
 # SoftUni C\# Advanced course
-Problem Solultions repository for the tasks given in the course.
+Problem Solutions repository for the tasks given in the course.
 <p></p>
 <p><img style="height: 200px;" src="https://kottans.org/csharp-slides/presentations/9-collections-generics/images/generic_collections.png">
 <img style="height: 200px" src="https://i.stack.imgur.com/SPhuf.jpg">
